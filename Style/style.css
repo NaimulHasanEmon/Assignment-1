@@ -140,22 +140,153 @@ header {
 }
 .section-container1 {
     text-align: left;
+    padding: 80px 0 50px 10px;
 }
 .section-container2 {
-    display: flex;
+    border: 15px solid #FF0000;
     width: 463px;
     height: 463px;
-    border: 15px solid #FF0000;
+    flex-shrink: 0;
     border-radius: 463px;
-    background-color: transparent;
-    box-sizing: border-box;
-    background-image: url('/resources/Ellipse\ 1.png');
-    
-}
-.best-offer {
-    display: flex;
-    margin: 120px 100px;
+    gap: 15px;
+    justify-content: center;
 }
 .section-container3 {
-    
+    text-align: left;
+    padding: 20px 20px 50px 0;
+}
+.best-offer {
+    background-color: antiquewhite;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    border-radius: 16px;
+}
+.offer-year-image {
+    margin-top: 350px;
+}
+.special {
+    padding: 100px 5px 5px 0;
+}
+.year-2024 {
+    color: #F00;
+    font-size: 48px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+}
+.year-details {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+.holiday-sale {
+    margin: 120px 10px;
+    text-align: center;
+    justify-content: center;
+    gap: 50px;
+    border-radius: 16px;
+}
+.functional {
+    color: #070211;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+}
+.hs50{
+    color: #070211;
+    font-family: 'Merriweather', serif;
+    font-size: 72px;
+    font-weight: 900;
+}
+.red-color-holiday {
+    color: #F00;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 72px;
+    font-weight: 900;
+}
+.function-details {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+}
+.holiday-photos {
+    display: flex;
+}
+.gifts {
+    color: #F00;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+}
+.portfolio-title {
+    color: #070211;
+    font-family: 'Merriweather', serif;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+.portfolio-details {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+.portfolio {
+    max-height: 7335px;
+    align-items: center;
+    justify-content: center;
+}
+.portfolio-images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+.portfolio-b1-photos {
+    width: 424px;
+    height: 450px;
+    flex-shrink: 0;
+    border-radius: 16px;
+}
+.subscribe {
+    border-radius: 16px;
+    background-color: rgba(255, 0, 0, 0.05);
+    margin: 120px 140px;
+    text-align: center;
+}
+.subscribe-image {
+    max-width: 150px;
+    max-height: 150px;
+    margin-top: 80px;
+    flex-shrink: 0;
+}
+.newsletter {
+    margin-top: 40px;
+    color: #070211;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+.subs-content {
+    margin-top: 22px;
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+main input {
+    box-sizing: 50px;
+    font-size: 20px;
 }
