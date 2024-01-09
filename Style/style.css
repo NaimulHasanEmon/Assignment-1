@@ -120,67 +120,59 @@ header {
 }
 .new-best-offer {
     color: #FF0000;
-    font-size: 24px;
+    font-size: 16px;
     font-weight: 500;
 }
 .coming-soon {
-    color: #070211;
-    font-family: 'Merriweather', serif;
     font-size: 48px;
-    font-weight: 900;
-    text-transform: capitalize;
+    margin: 0;
+    font-weight: 600;
 }
 .offer-details {
-    max-width: 393px;
-    color: rgba(7, 2, 17, 0.60);
-    font-family: 'Inter', sans-serif;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 32px;
+    color: #070211;
+    font-size: 16px;
+}
+.best-offer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
 }
 .section-container1 {
-    text-align: left;
-    padding: 80px 0 50px 10px;
+    width: 378px;
 }
 .section-container2 {
     border: 15px solid #FF0000;
-    width: 463px;
-    height: 463px;
-    flex-shrink: 0;
-    border-radius: 463px;
-    gap: 15px;
-    justify-content: center;
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+}
+#round-img {
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 .section-container3 {
-    text-align: left;
-    padding: 20px 20px 50px 0;
-}
-.best-offer {
-    background-color: antiquewhite;
-    text-align: center;
-    display: flex;
-    justify-content: space-between;
-    gap: 10px;
-    border-radius: 16px;
-}
-.offer-year-image {
-    margin-top: 350px;
-}
-.special {
-    padding: 100px 5px 5px 0;
+    width: 276px;
 }
 .year-2024 {
     color: #F00;
     font-size: 48px;
     font-family: 'Inter', sans-serif;
+    margin: 0;
     font-weight: 700;
 }
 .year-details {
     color: rgba(7, 2, 17, 0.60);
     font-family: 'Inter', sans-serif;
     font-size: 20px;
-    font-weight: 400;
-    line-height: 32px;
 }
 .holiday-sale {
     margin: 120px 10px;
@@ -188,6 +180,37 @@ header {
     justify-content: center;
     gap: 50px;
     border-radius: 16px;
+}
+.holiday-container {
+    transform: translate(0%, -45%);
+}
+.upper-content {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+.img-gp1 {
+    width: 670px;
+    height: 570px;
+    margin-left: 90px;
+    transform: translate(-10%, 84%);
+}
+.img-gp {
+    width: 400px;
+    height: 410px;
+    transform: translate(0%, 115%);
+    margin-right: 92px;
+}
+.discount-img{
+    transform: translate(50%, -0%);
+}
+.base-content {
+    display: flex;
+    justify-content: center;
+}
+.base-gp {
+    width: 1320px;
+    height: 190px;
 }
 .functional {
     color: #070211;
@@ -289,4 +312,39 @@ header {
 main input {
     box-sizing: 50px;
     font-size: 20px;
+}
+.button-box1 {
+    border-radius: 50px;
+    background: #FFF;
+}
+.button-box2 {
+    width: 210px;
+    height: 72px;
+    flex-shrink: 0;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+}
+.sub-but {
+    color: #FFF;
+    background-color: transparent;
+    border: none;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    margin: 24px 56px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.subs-button {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.placeH {
+    width: 400px;
+    height: 65px;
+    border-radius: 50px 0px 0px 50px;
+}
+.button-box1, .button-box2, .orange-button, #join, .sub-but {
+    cursor: pointer;
 }
