@@ -348,3 +348,51 @@ main input {
 .button-box1, .button-box2, .orange-button, #join, .sub-but {
     cursor: pointer;
 }
+.footer {
+    background-color: #070211;
+    flex-shrink: 0;
+}
+.final-address {
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    margin: 10px 0px 0px 0px;
+    padding: 0 100px 0 0;
+}
+.contact-numbers {
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+.in-same-line, .social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.security {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rights, .unsubscribe {
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+}
+.rights {
+    text-align: left;
+    padding: 0 700px 0 0;
+}
+.unsubscribe {
+    text-align: right;
+}
+.line {
+    width: 1320px;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.15);;
+}
