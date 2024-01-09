@@ -396,3 +396,10 @@ main input {
     height: 1px;
     background: rgba(255, 255, 255, 0.15);;
 }
+.portfolio-b1-photos:hover {
+    background-color: aqua;
+    transform: scale(1.1);
+}
+.portfolio-b1-photos {
+    transition: transform 0.3s ease;
+}
