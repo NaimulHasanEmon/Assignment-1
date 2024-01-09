@@ -129,7 +129,7 @@ header {
     font-weight: 600;
 }
 .offer-details {
-    color: #070211;
+    color: #07021199;
     font-size: 16px;
 }
 .best-offer {
@@ -396,10 +396,9 @@ main input {
     height: 1px;
     background: rgba(255, 255, 255, 0.15);;
 }
-.portfolio-b1-photos:hover {
-    background-color: aqua;
-    transform: scale(1.1);
-}
 .portfolio-b1-photos {
     transition: transform 0.3s ease;
+}
+.portfolio-b1-photos:hover {
+    transform: scale(1.1);
 }
