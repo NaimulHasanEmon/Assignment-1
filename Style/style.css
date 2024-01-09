@@ -1,0 +1,89 @@
+header {
+    background-image: url('../resources/Banner\ Image.png');
+    max-width: 1320px;
+    max-height: 600px;
+    border-radius: 16px;
+    width: 1000px;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+.hny {
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-family: 'Open Sans', sans-serif;
+}
+.off {
+    color: rgba(255, 0, 0, 1);
+    text-align: center;
+    margin: 120px 469px 48px 468px;
+    font-size: 65px;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Open Sans', sans-serif;
+}
+.holiday {
+    color: #F00;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+.cate {
+    color: #070211;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+}
+.night-party {
+    background-image: url('../resources/Vectorrr.png');
+    max-width: 1320px;
+    max-height: 600px;
+    border-radius: 16px;
+    width: 1000px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    /* filter: contrast(150%) brightness(50%); */
+}
+.overlap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wnp {
+    padding: 0px 0 24px 126px;
+    font-size: 64px;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+}
+.contain {
+    max-width: 697px;
+    color: rgba(255, 255, 255, 0.8);
+    padding: 0px 0 15px 126px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.button {
+    padding: 0px 0 70px 180px;
+}
+#join {
+    border: none;
+    color: rgba(255, 255, 255, 0.80);
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: transparent;
+    text-transform: uppercase
+}
+.year2024 {
+    padding: 50px 30px 50px 0;
+}
